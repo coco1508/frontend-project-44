@@ -15,5 +15,9 @@ brain-even:
 
 brain-calc:
 	node bin/brain-calc.js
+
 brain-gcd:
 	node bin/brain-gcd.js
+
+brain-progres:
+	node bin/brain-progres.js
