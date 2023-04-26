@@ -6,7 +6,9 @@
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
-    "brain-calc": "bin/brain-calc.js"
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js"
+
   },
   "name": "@hexlet/code",
   "description": "[![Actions Status](https://github.com/coco1508/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/coco1508/frontend-project-44/actions)",
