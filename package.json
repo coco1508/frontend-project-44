@@ -8,7 +8,8 @@
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js",
     "brain-gcd": "bin/brain-gcd.js",
-    "brain-progres": "bin/brain-progres.js"
+    "brain-progres": "bin/brain-progres.js",
+    "brain-prime": "bin/brain-prime.js"
 
   },
   "name": "@hexlet/code",
