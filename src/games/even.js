@@ -5,7 +5,7 @@ import getRandomIntInclusive from '../util.js';
 const isEven = (number) => (number % 2 === 0);
 const evenGame = () => {
   const name = hi();
-  console.log('Answer "yes" if the number is even, otherwise "no".');
+  console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {
     const randomNumber = getRandomIntInclusive(1, 100);
     console.log(`Question: ${randomNumber}`);
