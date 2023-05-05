@@ -1,4 +1,4 @@
-import welcome from '../cli.js';
+import hi from '../cli.js';
 
 import { getRandomIntInclusive, askUserAnswer } from '../util.js';
 
@@ -26,8 +26,8 @@ const getCalcAnswerAndQuestion = (number1, number2) => {
 };
 const NUMBER_OF_QUESTIONS = 3;
 const calculator = () => {
-  const name = welcome();
-  console.log("What is the result of the expression?")
+  const name = hi();
+  console.log('What is the result of the expression?');
   for (let i = 0; i < NUMBER_OF_QUESTIONS; i += 1) {
     const num1 = getRandomIntInclusive(1, 100);
     const num2 = getRandomIntInclusive(1, 100);
