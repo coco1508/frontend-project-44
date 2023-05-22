@@ -1,5 +1,4 @@
 import readlineSync from 'readline-sync';
-
 import hi from '../cli.js';
 
 const isPrime = (num) => {
@@ -13,13 +12,11 @@ const isPrime = (num) => {
   }
   return true;
 };
-
 const playPrimeGame = () => {
   const name = hi();
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".\n');
   const roundsCount = 3;
   let correctAnswersCount = 0;
-
   for (let i = 0; i < roundsCount; i += 1) {
     const number = Math.floor(Math.random() * 100);
     console.log(`Question: ${number}`);
@@ -33,7 +30,6 @@ const playPrimeGame = () => {
       return;
     }
   }
-
   console.log(`Congratulations, ${name}! You won!\nYour score: ${correctAnswersCount}/${roundsCount}`);
 };
 export default playPrimeGame;

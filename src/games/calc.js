@@ -25,7 +25,7 @@ const getCalcAnswerAndQuestion = (number1, number2) => {
   return [answer, question];
 };
 const getQuestion = 3;
-const calculator = () => {
+const getCalc = () => {
   const name = hi();
   console.log('What is the result of the expression?');
   for (let i = 0; i < getQuestion; i += 1) {
@@ -45,4 +45,4 @@ const calculator = () => {
   return console.log(`Congratulations, ${name}!`);
 };
 
-export default calculator;
+export default getCalc;
