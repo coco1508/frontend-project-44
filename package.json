@@ -1,4 +1,20 @@
 {
+  
+  "name": "@hexlet/code",
+  "description": "[![Actions Status](https://github.com/coco1508/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/coco1508/frontend-project-44/actions)",
+  "version": "1.0.0",
+ 
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kostya petryaev",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
   "dependencies": {
     "http-server": "^14.1.1",
     "readline-sync": "^1.4.10"
@@ -11,20 +27,5 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
 
-  },
-  "name": "@hexlet/code",
-  "description": "[![Actions Status](https://github.com/coco1508/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/coco1508/frontend-project-44/actions)",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "kostya petryaev",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^8.37.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5"
   }
 }

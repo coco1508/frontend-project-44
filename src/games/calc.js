@@ -24,11 +24,11 @@ const getCalcAnswerAndQuestion = (number1, number2) => {
   }
   return [answer, question];
 };
-const NUMBER_OF_QUESTIONS = 3;
+const getQuestion = 3;
 const calculator = () => {
   const name = hi();
   console.log('What is the result of the expression?');
-  for (let i = 0; i < NUMBER_OF_QUESTIONS; i += 1) {
+  for (let i = 0; i < getQuestion; i += 1) {
     const num1 = getRandomIntInclusive(1, 100);
     const num2 = getRandomIntInclusive(1, 100);
     const [answer, question] = getCalcAnswerAndQuestion(num1, num2);
