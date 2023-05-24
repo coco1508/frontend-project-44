@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import nod from '../src/games/gcd.js';
+import makeNod from '../src/games/gcd.js';
 
-nod();
+makeNod();

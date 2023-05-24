@@ -4,7 +4,7 @@ import hi from '../cli.js';
 import getRandomIntInclusive from '../util.js';
 
 const isEven = (number) => (number % 2 === 0);
-const evenGame = () => {
+const getEvenGame = () => {
   const name = hi();
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {
@@ -21,4 +21,4 @@ const evenGame = () => {
   }
   return console.log(`Congratulations, ${name}!`);
 };
-export default evenGame;
+export default getEvenGame;

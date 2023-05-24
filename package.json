@@ -1,7 +1,7 @@
 {
   
   "name": "@hexlet/code",
-  "description": "[![Actions Status](https://github.com/coco1508/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/coco1508/frontend-project-44/actions)",
+  "description":"This is logic-game. her name 'brain-games",
   "version": "1.0.0",
  
   "type": "module",

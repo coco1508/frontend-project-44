@@ -16,6 +16,6 @@ const expression = () => {
   return [expressionString, String(randomItem)];
 };
 
-export default function brainProgression() {
+export default function playBrainProgression() {
   game(gameTask, expression);
 }

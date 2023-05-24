@@ -4,7 +4,7 @@ import hi from '../cli.js';
 
 import { getRandomIntInclusive, areUserRight, gcd } from '../util.js';
 
-const nod = () => {
+const makeNod = () => {
   const name = hi();
   const number = 3;
   console.log('Find the greatest common divisor of given numbers.');
@@ -22,4 +22,4 @@ const nod = () => {
   return console.log(`Congratulations, ${name}!`);
 };
 
-export default nod;
+export default makeNod;
